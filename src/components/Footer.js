@@ -9,6 +9,7 @@ const Footer = () => {
           copyright&copy;{new Date().getFullYear()}
           <span> Mia Codes </span> all rights reserved
         </h4>
+        <h6>Built in Gatsby, Data from Strapi and Hosted in Netlify</h6>
       </div>
     </footer>
   )

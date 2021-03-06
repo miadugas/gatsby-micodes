@@ -2,13 +2,13 @@ import React from "react"
 import logo from "../assets/logo.jpg"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
-const Navbar = () => {
+const Navbar = ({ toggleSidebar }) => {
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} alt="logo" />
-          <button type="button" className="toggle-btn">
+          <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight></FaAlignRight>
           </button>
         </div>
@@ -16,7 +16,6 @@ const Navbar = () => {
       </div>
     </nav>
   )
-
 }
 
 export default Navbar

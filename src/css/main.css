@@ -851,6 +851,10 @@ Footer
 .footer .social-link:hover {
   color: var(--clr-primary-5);
 }
+
+.footer h6 {
+  color:hsl(185, 94%, 87%)
+}
 /*
 ===============
 Pages
